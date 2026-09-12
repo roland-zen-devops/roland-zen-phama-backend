@@ -6,6 +6,7 @@ name: CI/CD — drug-catalog-service
 # Note: zen-gitops uses "catalog-service" as the values file name for this service.
 
 on:
+  workflow_dispatch: {}
   push:
     branches: [develop, 'release/**']
     paths:
