@@ -1,6 +1,7 @@
 name: CI/CD — qc-service
 
 on:
+  workflow_dispatch: {}
   push:
     branches: [develop, 'release/**']
     paths:
